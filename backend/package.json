@@ -1,0 +1,22 @@
+{
+  "name": "reach-inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "module",
+  "scripts": {
+    "start": "npx tsc && node build/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.8",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.2"
+  }
+}
